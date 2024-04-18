@@ -2,7 +2,7 @@
 
 context:
   name: rattler-build-conda-compat
-  version: "0.0.1"
+  version: "0.0.2"
 
 package:
   name: ${{ name | lower }}
@@ -13,7 +13,7 @@ source:
   sha256: c6fa25d88d5e58ba51f094a4283dbf6eb7eed86ca4efb1495105e550ca93bc95
 
 build:
-  number: 3
+  number: 0
   noarch: python
   script:
     - python -m pip install . -vv
@@ -45,6 +45,3 @@ about:
 extra:
   recipe-maintainers:
     - nichmor
-    - '0xbe7a'
-
-
