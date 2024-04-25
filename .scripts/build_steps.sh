@@ -34,7 +34,7 @@ CONDARC
 export CONDA_LIBMAMBA_SOLVER_NO_CHANNELS_FROM_INSTALLED=1
 
 mamba install --update-specs --yes --quiet --channel conda-forge --strict-channel-priority \
-    pip mamba rattler-build conda-forge-ci-setup=4 "conda-build>=24.1"
+    pip mamba rattler-build conda-forge-ci-setup=4 "conda-build>=24.1" rattler-build-conda-compat
 mamba update --update-specs --yes --quiet --channel conda-forge --strict-channel-priority \
     pip mamba rattler-build conda-forge-ci-setup=4 "conda-build>=24.1"
   
