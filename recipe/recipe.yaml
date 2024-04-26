@@ -2,7 +2,7 @@
 
 context:
   name: rattler-build-conda-compat
-  version: "0.0.3"
+  version: "0.0.4"
 
 package:
   name: ${{ name | lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/nichmor/rattler-build-conda-compat/releases/download/v${{ version }}/rattler_build_conda_compat-${{ version }}.tar.gz
-  sha256: 18d3e6ea2aaf20d0c8ba1de6944f56a84ef935bcc465eb917a7ff789e59e3018
+  sha256: a67fb5fff6c846522dbf1c8fabdba0fe660eeea4e052cb7db984f8e1e5ecd3b7
 
 build:
   number: 0
