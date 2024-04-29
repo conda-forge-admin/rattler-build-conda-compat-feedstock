@@ -2,7 +2,7 @@
 
 context:
   name: rattler-build-conda-compat
-  version: "0.0.4"
+  version: "0.0.5"
 
 package:
   name: ${{ name | lower }}
@@ -13,7 +13,7 @@ source:
   sha256: a67fb5fff6c846522dbf1c8fabdba0fe660eeea4e052cb7db984f8e1e5ecd3b7
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script:
     - python -m pip install . -vv
